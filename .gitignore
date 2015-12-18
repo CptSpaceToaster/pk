@@ -1,0 +1,20 @@
+# Temporary Files
+*.swp
+*.log
+*__pycache__*
+*~
+
+# Marker Files
+.hooks
+.requirements.txt
+
+# Automatically Generated Configuration Files
+project.mk
+
+# Uneeded Directories
+docs/pdf
+venv
+logs
+
+# Exceptions
+!docs/pdf/*.py
